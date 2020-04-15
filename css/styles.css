@@ -128,7 +128,9 @@ h1,
   font-size: var(--font-size-display);
   line-height: var(--line-height);
 }
-
+.h1 #about {
+  color: #ffd100;
+}
 h2,
 .h2 {
   font-size: var(--font-size-xx-large);
@@ -139,6 +141,9 @@ h3,
 .h3 {
   font-size: var(--font-size-large);
   line-height: var(--line-height-display);
+}
+.h3 {
+  color: #2774ae;
 }
 
 h4,
