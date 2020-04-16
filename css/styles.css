@@ -27,8 +27,8 @@
   --color-primary: var(--ucla-blue);
   --color-secondary: var(--ucla-darkest-blue);
   --color-accent: var(--ucla-lightest-blue);
-  --font-family: Helvetica, Arial, sans-serif;
-  --font-family-alt: "Nunito", Helvetica, Arial, sans-serif;
+  --font-family: "Overpass", Helvetica, Arial, sans-serif;
+  --font-family-alt: "Overpass", Helvetica, Arial, sans-serif;
   --font-family-display: var(--font-family);
   --font-family-system: -apple-system, BlinkMacSystemFont, "helvetica neue",
     helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
@@ -128,13 +128,17 @@ h1,
   font-size: var(--font-size-display);
   line-height: var(--line-height);
 }
-h1 #about {
-  color: #ffd100;
+h1{
+  color:darkseagreen;
 }
+
 h2,
 .h2 {
   font-size: var(--font-size-xx-large);
   line-height: var(--line-height-display);
+}
+h2{
+    color:darkseagreen;
 }
 
 h3,
